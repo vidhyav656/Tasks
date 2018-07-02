@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minitask</string>
+
+    <string name="about">Info</string>
+    <string name="cleaning">Sto pulendo...</string>
+    <string name="add_todo_item">Aggiungi un compito</string>
+    <string name="add_todo_item_hint">Inserisci il tuo compito qui</string>
+    <string name="empty_input">Non lasciare il tuo compito vuoto!</string>
+    <string name="reminder_or_not">Aggiungi un promemoria</string>
+    <string name="set_date">Scegli la data</string>
+    <string name="set_time">Scegli l\'ora</string>
+    <string name="reminder_set_at">Promemoria impostato a:</string>
+    <string name="reminder_info">Info sul promemoria: </string>
+    <string name="not_found">Non trovato!</string>
+    <string name="item_deleted">compito cancellato!</string>
+    <string name="time_error">Per favore scegli l\'ora</string>
+    <string name="time_error_purpose">un orario specifico è migliore se vuoi avere un promemoria esatto</string>
+    <string name="task_to_be_done">Compiti da svolgere</string>
+    <string name="detail">Dettagli</string>
+    <string name="clean_all_done">Elimina i compiti fatti</string>
+    <string name="app_version">Versione 1.0</string>
+    <string name="contact_me">Mi puoi contattare a:</string>
+    <string name="support_me">Supportami su:</string>
+    <string name="delete_message">Sei sicuro di voler eliminare questo compito?</string>
+    <string name="delete">Cancella</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete_all_message">Sei sicuro di voler eliminare tutti i compiti selezionati?</string>
+    <string name="deleted_all_task">Compiti selezionati eliminati</string>
+    <string name="click_item">Clicca su un compito</string>
+    <string name="today">OGGI</string>
+    <string name="next_7_days">7 GIORNI</string>
+    <string name="no_reminder">Non c\'è un promemoria per questo compito</string>
+    <string name="author">Autore: Lorenzo Redaelli</string>
+    <string name="initial_idea">Da un\'idea e sviluppo iniziale di:</string>
+    <string name="no_items_checked">Nessun compito è stato selezionato!</string>
+    <string name="delete_single_task_message">Sei sicuro di voler eliminare questo task?</string>
+    <string name="privacy_policy">Lorenzo Redaelli ha creato l\'app Minitask come app Open Source. Questo servizio è fornito da Lorenzo Redaelli gratuitamente e deve essere utilizzato così com\'è. Questa pagina viene utilizzata per informare i visitatori del sito web in merito alle mie politiche con la raccolta, l\'utilizzo e la divulgazione delle informazioni personali se qualcuno ha deciso di utilizzare il mio servizio. Se scegli di utilizzare il mio servizio, accetti la raccolta e l\'utilizzo delle informazioni in relazione a questa politica. Le informazioni personali che raccolgo vengono utilizzate per fornire e migliorare il servizio. Non userò o condividerò le tue informazioni con nessuno eccetto quanto descritto in questa Informativa sulla privacy. I termini utilizzati in questa Informativa sulla privacy hanno lo stesso significato dei nostri Termini e condizioni, che è accessibile al Minitask [Nome app], se non diversamente definito nella presente Informativa sulla privacy. Raccolta e utilizzo delle informazioni Per un\'esperienza migliore, durante l\'utilizzo del nostro servizio, potrei richiedere all\'utente di fornirci alcune informazioni di identificazione personale, incluse, a titolo esemplificativo, e-mail, accesso a Google, attività. Le informazioni che richiedo sono conservate sul tuo dispositivo e non sono raccolte da me in alcun modo L\'app utilizza servizi di terze parti che potrebbero raccogliere informazioni utilizzate per identificarti. Link alla privacy policy dei fornitori di servizi di terze parti utilizzati dall\'app Google Play Services Firebase Analytics Dati del registro Desidero informarti che ogni volta che si utilizza il mio servizio, in caso di errore nell\'app, raccolgo dati e informazioni (tramite terze parti prodotti) sul telefono chiamato Dati di registro. Questi dati di registro possono includere informazioni quali l\'indirizzo IP (\"IP\") del dispositivo, il nome del dispositivo, la versione del sistema operativo, la configurazione dell\'app quando si utilizza il mio servizio, l\'ora e la data di utilizzo del servizio e altre statistiche . Cookies I cookie sono file con una piccola quantità di dati che viene comunemente utilizzato come identificatore univoco anonimo. Questi vengono inviati al browser dal sito Web visitato e memorizzati nella memoria interna del dispositivo. Questo Servizio non utilizza questi \"cookie\" esplicitamente. Tuttavia, l\'app può utilizzare codici e librerie di terze parti che utilizzano \"cookie\" per raccogliere informazioni e migliorare i loro servizi. Hai la possibilità di accettare o rifiutare questi cookie e sapere quando un cookie viene inviato al tuo dispositivo. Se si sceglie di rifiutare i nostri cookie, potrebbe non essere possibile utilizzare alcune parti di questo servizio. Fornitori di servizi Potrei assumere società e persone terze per i seguenti motivi: per facilitare il nostro servizio; Per fornire il Servizio per nostro conto; Per eseguire servizi relativi ai servizi; o per aiutarci ad analizzare come viene utilizzato il nostro servizio. Voglio informare gli utenti di questo servizio che queste terze parti hanno accesso alle tue informazioni personali. Il motivo è eseguire i compiti assegnati a loro per nostro conto. Tuttavia, sono obbligati a non divulgare o utilizzare le informazioni per nessun altro scopo. Sicurezza Apprezzo la tua fiducia nel fornirci le tue informazioni personali, quindi ci stiamo adoperando per utilizzare mezzi commercialmente accettabili per proteggerli. Ma ricorda che nessun metodo di trasmissione su Internet o metodo di archiviazione elettronica è sicuro al 100% e affidabile e non posso garantire la sua assoluta sicurezza. Collegamenti ad altri siti Questo servizio può contenere collegamenti ad altri siti. Se fai clic su un link di terze parti, sarai indirizzato a quel sito. Si noti che questi siti esterni non sono gestiti da me. Pertanto, ti consiglio vivamente di rivedere l\'Informativa sulla privacy di questi siti web. Non ho alcun controllo e non mi assumo alcuna responsabilità per il contenuto, le politiche sulla privacy o le pratiche di qualsiasi sito o servizio di terze parti. Privacy dei bambini Questi servizi non sono rivolti a minori di 13 anni. Non raccolgo consapevolmente informazioni di identificazione personale da minori di 13 anni. Nel caso in cui scopro che un minore di 13 anni mi ha fornito informazioni personali, lo cancellerò immediatamente dal nostro server. Se sei un genitore o un tutore e sei consapevole del fatto che tuo figlio ci ha fornito informazioni personali, ti prego di contattarmi in modo da essere in grado di fare le azioni necessarie. Modifiche alla presente informativa sulla privacy Posso aggiornare la nostra politica sulla privacy di volta in volta. Pertanto, si consiglia di rivedere periodicamente questa pagina per eventuali modifiche. Ti informerò di eventuali modifiche pubblicando la nuova Informativa sulla privacy in questa pagina. Queste modifiche sono effettive immediatamente dopo essere state pubblicate su questa pagina. Contattaci Se avete domande o suggerimenti sulla mia politica sulla privacy, non esitate a contattarmi. Questa pagina informativa sulla privacy è stata creata su privacypolicytemplate.net e modificata / generata dal Generatore di norme sulla privacy dell\'app</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minitask</string>
+    <string name="about">Sobre</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cleaning">Limpando...</string>
+    <string name="add_todo_item">Adicionar Tarefa</string>
+    <string name="add_todo_item_hint">Insira sua tarefa aqui</string>
+    <string name="empty_input">Não deixe a tarefa em branco</string>
+    <string name="reminder_or_not">Me lembre mais tarde</string>
+    <string name="set_date">Data</string>
+    <string name="set_time">Hora</string>
+    <string name="reminder_set_at">Lembrete para as</string>
+    <string name="reminder_info">Informacoes sobre o lembrete:</string>
+    <string name="no_reminder">Nao existe um lembrete para essa atividade!</string>
+    <string name="not_found">Nao encontrado!</string>
+    <string name="item_deleted">Tarefa deletada!</string>
+    <string name="time_error">Por favor, especifique um horario</string>
+    <string name="time_error_purpose">Um horario especifico seria melhor para notificacao apropriada</string>
+    <string name="task_to_be_done">Tafefas a serem completadas</string>
+    <string name="detail">Detalhe</string>
+    <string name="clean_all_done">Limpar tarefas completadas</string>
+    <string name="app_version">Versao 2.0</string>
+    <string name="author">Autor: Lorenzo Redaelli</string>
+    <string name="initial_idea">Da idea e do desenvolvimento inicial de: </string>
+    <string name="contact_me">Voce pode entrar em contato em</string>
+    <string name="support_me">Nos suporte</string>
+
+    <!--Change, strings for the menu dialog-->
+    <string name="delete_message">Tem certeza que deseja excluir essa tarefa?</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete_all_message">Tem certeza que deseja excluir todas as tarefas selecionadas?</string>
+    <string name="deleted_all_task">Tarefas selecionadas deletadas</string>
+    <string name="no_items_checked">Nenhum item checado!</string>
+
+    <string name="click_item">Clique em um item</string>
+
+    <string name="today">HOJE</string>
+    <string name="next_7_days">PROXIMO 7 DIAS</string>
+
+    <!--String for deleteTodo button's dialog -->
+    <string name="delete_single_task_message">Tem certeza que deseja deletar essa tarefa?</string>
+
+    <string name="privacy_policy">
+
+    Lorenzo Redaelli criou o aplicativo Minitask como um aplicativo Open Source. Este serviço é fornecido por Lorenzo Redaelli sem nenhum custo e destina-se a ser usado como está.
+
+    Esta página é usada para informar os visitantes do site sobre minhas políticas com a coleta, uso e divulgação de Informações Pessoais se alguém decidiu usar meu Serviço.
+
+    Se você optar por usar o meu Serviço, você concorda com a coleta e uso de informações em relação a esta política. As Informações Pessoais que eu coleciono são usadas para fornecer e melhorar o Serviço. Não usarei nem compartilharei sua informação com ninguém, exceto conforme descrito nesta Política de Privacidade.
+
+    Os termos utilizados nesta Política de Privacidade têm os mesmos significados que nos nossos Termos e Condições, que está acessível no [Nome do Aplicativo] Minitask, a menos que seja definido de outra forma nesta Política de Privacidade.
+
+    Coleta e uso de informações
+
+    Para uma melhor experiência, ao usar nosso Serviço, talvez seja necessário que você nos forneça certas informações de identificação pessoal, incluindo, mas não limitado a, e-mail, login do Google, tarefas. A informação que solicito é mantida no seu dispositivo e não é recolhida por mim de forma alguma
+
+    O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo.
+
+    Link para a política de privacidade dos provedores de serviços terceirizados usados ​​pelo aplicativo
+
+    Serviços do Google Play
+
+    Análise da base de dados Firebase
+
+    Dados de registro
+
+    Quero informá-lo de que, sempre que usar o meu Serviço, em caso de erro no aplicativo, colete dados e informações (através de produtos de terceiros) em seu telefone chamado Log Data. Esses dados do registro podem incluir informações como o endereço do dispositivo IP (dispositivo IP), o nome do dispositivo, a versão do sistema operacional, a configuração do aplicativo quando utilizar o meu Serviço, a hora e a data do uso do serviço e outras estatísticas .
+
+    Biscoitos
+
+    Os cookies são arquivos com uma pequena quantidade de dados que é comumente usado como identificador exclusivo anônimo. Estes são enviados para o seu navegador a partir do site que você visita e são armazenados na memória interna do dispositivo.
+
+    Este serviço não usa esses "cookies" explicitamente. No entanto, o aplicativo pode usar código de terceiros e bibliotecas que usam "cookies" para informações de coleta e para melhorar seus serviços. Você tem a opção de aceitar ou recusar esses cookies e saber quando um cookie está sendo enviado para o seu dispositivo. Se você optar por recusar nossos cookies, talvez você não consiga usar algumas partes desse Serviço.
+
+    Provedores de serviço
+
+    Posso empregar empresas terceirizadas e pessoas físicas devido às seguintes razões:
+
+    Para facilitar o nosso Serviço;
+
+    Para prestar o Serviço em nosso nome;
+
+    Para executar serviços relacionados ao serviço; ou
+
+    Para nos ajudar a analisar como nosso Serviço é usado.
+
+    Quero informar os usuários deste Serviço que esses terceiros têm acesso às suas Informações Pessoais. A razão é executar as tarefas que lhes são atribuídas em nosso nome. No entanto, eles são obrigados a não divulgar ou usar a informação para qualquer outra finalidade.
+
+    Segurança
+
+    Eu valorizo ​​sua confiança em nos fornecer suas Informações Pessoais, portanto estamos nos esforçando para usar meios comercialmente aceitáveis ​​para protegê-la. Mas lembre-se de que nenhum método de transmissão pela internet, ou método de armazenamento eletrônico é 100% seguro e confiável, e não posso garantir sua segurança absoluta.
+
+    Links para outros sites
+
+    Este serviço pode conter links para outros sites. Se você clicar em um link de terceiros, você será direcionado para esse site. Observe que esses sites externos não são operados por mim. Portanto, eu recomendo vivamente que você analise a Política de Privacidade desses sites. Não tenho controle e não assumir nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros.
+
+    Privacidade infantil
+
+    Estes Serviços não abordam pessoas com menos de 13 anos de idade. Não consigo recolher informações pessoalmente identificáveis ​​de crianças menores de 13 anos. No caso, descubro que uma criança com menos de 13 anos me forneceu informações pessoais, eu imediatamente exclui isso dos nossos servidores. Se você é um pai ou tutor e está ciente de que seu filho nos forneceu informações pessoais, entre em contato comigo para que eu possa fazer as ações necessárias.
+
+    Alterações nesta Política de Privacidade
+
+    Posso atualizar a Política de Privacidade de tempos em tempos. Assim, você é aconselhável revisar esta página periodicamente para qualquer alteração. Vou avisá-lo de quaisquer alterações publicando a nova Política de Privacidade nesta página. Essas alterações são efetivas imediatamente após serem publicadas nesta página.
+
+    Contate-Nos
+
+    Se você tiver dúvidas ou sugestões sobre minha Política de Privacidade, não hesite em contactar-me.
+
+        Esta página de política de privacidade foi criada em privacypolicytemplate.net e modificada / gerada pelo Gerente de Política de Privacidade da Aplicação</string>
+​
+</resources>

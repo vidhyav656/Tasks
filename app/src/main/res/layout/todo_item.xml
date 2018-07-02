@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp">
+
+    <CheckBox
+        android:id="@+id/checkDone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:buttonTint="@color/check_tint"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/todoContent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/item_text_color"
+        android:textSize="@dimen/item_text_size" />
+
+    <ImageView
+        android:id="@+id/clockReminder"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_alarm_on_black_18dp"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity About -->
+    <dimen name="image_about">100dp</dimen>
+    <dimen name="margin_image_about">20dp</dimen>
+    <dimen name="margin_text_about">10dp</dimen>
+    <dimen name="text_size_app_name">30sp</dimen>
+    <dimen name="text_size_author_name">20sp</dimen>
+    <dimen name="text_size_paragraph">14sp</dimen>
+    <dimen name="margin_icons_about">8dp</dimen>
+    <dimen name="text_size_links">18sp</dimen>
+    <dimen name="margin_links">5dp</dimen>
+    <dimen name="height_links">27dp</dimen>
+
+    <!-- Activity Add To Do & Fragment Details -->
+    <dimen name="edit_text_margin">32dp</dimen>
+    <dimen name="padding_lower">10dp</dimen>
+    <dimen name="padding_text">20dp</dimen>
+    <dimen name="text_size_set_reminder">16sp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="text_reminder_set">18sp</dimen>
+    <dimen name="floating_margin">25sp</dimen>
+    <dimen name="click_item_text_size">24sp</dimen>
+    <dimen name="info_padding">16dp</dimen>
+    <dimen name="not_found_text_size">20sp</dimen>
+    <dimen name="text_reminder_set_land">12sp</dimen>
+
+    <!-- Activity Main -->
+    <dimen name="main_image_height">160dp</dimen>
+    <dimen name="indicator_height">4dp</dimen>
+    <dimen name="floating_elevation">15dp</dimen>
+
+    <!-- Activity Privacy -->
+    <dimen name="image_margin">20dp</dimen>
+    <dimen name="title_margin">10dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="paragraph_margin">12dp</dimen>
+    <dimen name="paragraph_text_size">20sp</dimen>
+
+    <!-- To Do Item -->
+    <dimen name="item_text_size">14sp</dimen>
+</resources>

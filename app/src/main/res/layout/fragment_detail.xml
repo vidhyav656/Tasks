@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/todoDetailLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/background_upper"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/todoInfo"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/edit_text_margin"
+                    android:layout_marginRight="@dimen/edit_text_margin"
+                    android:ellipsize="end"
+                    android:gravity="start|bottom"
+                    android:lineSpacingExtra="10dp"
+                    android:maxLines="5"
+                    android:text="@string/click_item"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/click_item_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/background_lower"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_lower">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/button_margin"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_lower"
+                        android:src="@drawable/ic_access_alarms_white_36dp"
+                        android:contentDescription="@st"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/info_padding"
+                        android:text="@string/reminder_info"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/text_reminder_set" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/reminderInfo"
+                        style="@style/Base.TextAppearance.AppCompat.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/not_found"
+                        android:textColor="@color/set_text_color"
+                        android:textSize="@dimen/not_found_text_size"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/editTodoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/floating_margin"
+            android:src="@drawable/ic_mode_edit_white_24dp"
+            app:layout_anchor="@id/todoDetailLayout"
+            app:layout_anchorGravity="bottom|right|end" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/deleteTodoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/floating_margin"
+            android:src="@drawable/ic_delete_sweep_white_24dp"
+            app:layout_anchor="@id/todoDetailLayout"
+            app:layout_anchorGravity="bottom|left|start" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    tools:context="redlor.it.minitask.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_about"
+            android:layout_height="@dimen/image_about"
+            android:layout_marginTop="@dimen/margin_image_about"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:contentDescription="@string/author" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_text_about"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/app_name"
+            android:textSize="@dimen/text_size_app_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_version"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_text_about"
+            android:gravity="center"
+            android:text="@string/author"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_author_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/initial_idea"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_paragraph" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_text_about"
+            android:gravity="center"
+            android:text="@string/original_author"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_author_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/contact_me"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_paragraph"
+            android:textStyle="italic" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_links"
+            android:layout_margin="@dimen/margin_links"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_icons_about"
+                android:layout_weight="0.5"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_github"
+                android:layout_marginEnd="@dimen/margin_icons_about" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:autoLink="web"
+                android:gravity="start|center"
+                android:linksClickable="true"
+                android:text="@string/github_acc"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_links" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_links"
+                android:layout_marginRight="@dimen/margin_icons_about"
+                android:layout_weight="0.5"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_email_black_18dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:autoLink="web"
+                android:gravity="start"
+                android:linksClickable="true"
+                android:text="@string/my_email"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_links" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

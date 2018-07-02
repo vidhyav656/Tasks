@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    tools:context="redlor.it.minitask.PrivacyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_about"
+            android:layout_height="@dimen/image_about"
+            android:layout_marginTop="@dimen/image_margin"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:text="@string/privacy_title"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/paragraph_margin"
+            android:gravity="start"
+            android:text="@string/privacy_policy"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/paragraph_text_size" />
+
+
+    </LinearLayout>
+</ScrollView>
